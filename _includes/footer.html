@@ -1,0 +1,48 @@
+<div class="modal fade" tabindex="-1" role="dialog" id="privacyModal">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">Privacy policy</h4>
+            </div>
+            <div class="modal-body">
+                <p><strong>TESS aims to comply with data protection laws with regard to your privacy and any information you enter into this website.</strong></p>
+                <p>We use analytics software to gather data about visitors to our website. This may include the use of "cookies". The information gathered is anonymous and aggregated and is not used to identify individuals.</p>
+                <p><a href="http://www.bbc.co.uk/webwise/guides/about-cookies" target="_blank">What are cookies?</a> <i class="fa fa-external-link"></i></p>
+                <p><a href="http://www.wikihow.com/Disable-Cookies" target="_blank">Instructions for disabling cookies</a> <i class="fa fa-external-link"></i></p>
+                <p>We store any information you submit to this website (name, email address, phone number) for the purposes of informing you about our work and activities. We do not send unsolicited communications or share your information with any third
+                    parties except where legally required to do so. We provide mechanisms to unsubscribe from our mailing list, should you no longer wish to hear from us.</p>
+                <p>If you have any questions, please feel free to contact us using the details in the Contact Us section.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>
+<!-- /.modal -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <span class="copyright">&copy; {{ site.title }} 2016<br/>Scottish charity no. SCO22986</span>
+            </div>
+            <div class="col-md-4">
+                <ul class="list-inline social-buttons">
+                    {% for network in site.social %}
+                    <li><a href="{{ network.url }}" target="_blank"><i class="fa fa-{{ network.title }}"></i></a>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <ul class="list-inline quicklinks">
+                    <li><a href="javascript:;" data-toggle="modal" data-target="#privacyModal">Privacy policy</a>
+                    </li>
+		    <li><a href="http://www.edinburghsambaschool.org.uk/members/wiki/index.php?title=Main_Page">Members area</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>

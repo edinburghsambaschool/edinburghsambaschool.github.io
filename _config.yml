@@ -1,0 +1,21 @@
+url: http://www.edinburghsambaschool.org.uk
+baseurl:
+
+title: The Edinburgh Samba School
+email: contact@edinburghsambaschool.org.uk
+description: "Loud and lively, energetic and dynamic - The Edinburgh Samba School (TESS) is a regular and popular feature of community festivals and special events in Edinburgh and elsewhere in Britain and Europe."
+
+social:
+  - title: facebook
+    url: https://www.facebook.com/edinburghsambaschool/
+  - title: twitter
+    url: https://twitter.com/edinsamba
+  - title: youtube
+    url: https://youtube.com/tessvideo
+
+markdown: kramdown
+permalink: pretty
+destination: _site
+sass:
+    sass_dir: _sass
+exclude: [vendor]
